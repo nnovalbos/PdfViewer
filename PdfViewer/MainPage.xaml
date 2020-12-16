@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PdfViewer.MainPage">
+
+    <StackLayout x:Name="StackHeader" Spacing="0">
+
+        <Frame x:Name="Header" BackgroundColor="#2196F3" Padding="24" CornerRadius="0" HeightRequest="50">
+            <Label Text="PDFViewer!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+
+    </StackLayout>
+
+</ContentPage>
